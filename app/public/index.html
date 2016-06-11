@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="feelmealApp">
+ <head>
+ <title>FeelMeal</title>
+ <link rel="stylesheet" href="css/style.css">
+ <script src="js/homepage.js"></script>
+ </head>
+ <body  ng-controller="feelMealCtrl">
+    <div class="container">
+        <header>
+            <a href="index.html" id="logo"></a> 
+        </header>
+        <main id="homepg">
+           <section class = "hot">
+                <section class = "hotwrap">
+                <article>{{ hottitle }}</article>
+                <article class = "hot1">{{ hottitle2 }}</article>
+                </section>
+            </section>
+            <section class = "meat">
+                <section class = "hotwrap">
+                <article>{{ meattitle }}</article>
+                <article class = "hot1">{{ meattitle2 }}</article>
+                </section>
+            </section>
+            <section class = "spicy">
+                <section class = "hotwrap">
+                <article>{{ spicytitle }}</article>
+                <article class = "hot1">{{ spicytitle2 }}</article>
+                </section>
+            </section>
+            <section class = "carbs">
+                <section class = "hotwrap">
+                <article>{{ carbtitle }}</article>
+                <article class = "hot1">{{ carbtitle2 }}</article>
+                </section>
+            </section>              
+            <section class = "healthy">
+                <section class = "hotwrap">
+                <article>{{ healthytitle }}</article>
+                <article class = "hot1">{{ healthytitle2 }}</article>
+                </section>
+            </section>    
+            <section class = "fresh">
+                <section class = "hotwrap">
+                <article>{{ freshtitle }}</article>
+                <article class = "hot1">{{ freshtitle2 }}</article>
+                </section>
+            </section>              
+            <section class = "sweet">
+                <section class = "hotwrap">
+                <article>{{ sweettitle }}</article>
+                <article class = "hot1">{{ sweettitle2 }}</article>
+                </section>
+            </section> 
+        </main>
+        <div class="clear"></div>
+    </div>
+     <script src="js/lib/angular/angular.min.js"></script>
+    <script src="js/todo.js"></script>
+ </body>
+ </html>
